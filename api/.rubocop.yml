@@ -1,0 +1,20 @@
+# This is the configuration used to check the rubocop source code.
+
+require:
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  SuggestExtensions: true
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/PerceivedComplexity:
+  Max: 20
+
+Metrics/CyclomaticComplexity:
+  Max: 20
+
+Style/Documentation:
+  Enabled: false
